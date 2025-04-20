@@ -11,8 +11,8 @@ import {
 
 export default function About() {
   return (
-    <section className="h-screen bg-[213547] flex items-center justify-center px-6">
-      <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    <section className="py-5 bg-[213547] flex items-center justify-center px-6">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left: About Text */}
         <div className="text-white space-y-4">
           <h2 className="text-4xl font-semibold">About</h2>
