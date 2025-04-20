@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import About from "./components/About"
-import Projects from "./components/Projects"
-import AnimationComponent from "./components/Animation"
+import About from "./page-components/About"
+import Projects from "./page-components/Projects"
+import AnimationComponent from "./page-components/Animation"
 
 function App() {
   return (

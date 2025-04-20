@@ -11,11 +11,15 @@ import {
 
 export default function About() {
   return (
-    <section className="py-5 bg-[213547] flex items-center justify-center px-6">
+    <section className="py-5 bg-[213547] flex flex-col items-center justify-center px-6">
+      <div className="relative mb-16">
+        <div className="absolute bottom-2 left-3 w-24 h-4 bg-blue-600 translate-x-2 translate-y-2 z-0"></div>
+        <h2 className="relative text-4xl font-semibold text-white text-center z-10">About</h2>
+      </div>
+
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left: About Text */}
         <div className="text-white space-y-4">
-          <h2 className="text-4xl font-semibold">About</h2>
           <p className="text-lg leading-relaxed">
             Final year Computer Science & Finance student at UNSW passionate about building scalable software solutions and leveraging technology in finance and analytics.
             I'm curious about the intersection of software engineering and finance, creating impactful solutions that bridge the gap between data and decision-making.
@@ -35,6 +39,7 @@ export default function About() {
         </div>
       </div>
     </section>
+
   );
 }
 
