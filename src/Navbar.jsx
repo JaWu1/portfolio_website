@@ -18,7 +18,7 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto px-6 py-3 flex justify-between items-center">
-        <div className="text-lg font-bold">Welcome</div>
+        <div className="text-lg font-bold">Welcome!</div>
         <ul className="flex space-x-6 text-white">
           <li className="hover:text-blue-700 cursor-pointer transition-colors font-semibold">Home</li>
           <li className="hover:text-blue-700 cursor-pointer transition-colors font-semibold">Projects</li>

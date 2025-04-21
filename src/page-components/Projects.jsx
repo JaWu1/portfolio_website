@@ -17,9 +17,13 @@ export default function Projects() {
             <p className="mb-4">
               A collaboration platform that helps university students connect, solve questions, and share ideas. Built using Next.js, MongoDB, and Google OAuth.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition">
+            <a
+              href="https://github.com/sohumshah2/campuscollab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition">
               Learn More
-            </button>
+            </a>
           </div>
           <img
             src="/images/campus_collab.jpg"
@@ -35,9 +39,13 @@ export default function Projects() {
             <p className="mb-4">
               A multifunctional bot with commands for moderation, currency, and utility. Developed using Node.js, Discord.js, and MongoDB.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition">
+            <a
+              href="https://github.com/JaWu1/discord-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition">
               Learn More
-            </button>
+            </a>
           </div>
           <img
             src="/images/discord_bot.png"
@@ -53,9 +61,13 @@ export default function Projects() {
             <p className="mb-4">
               A fun 2D platformer game built using Unity and C#. Includes movement physics, collectibles, and custom level design.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition">
+            <a
+              href="https://github.com/JaWu1/2d-platformer"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition">
               Learn More
-            </button>
+            </a>
           </div>
           <img
             src="/images/2d_game.png"
