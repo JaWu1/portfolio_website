@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "./page-components/Navbar";
 import About from "./page-components/About";
 import Projects from "./page-components/Projects";
 import AnimationComponent from "./page-components/Animation";
