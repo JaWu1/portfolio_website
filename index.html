@@ -1,118 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>John's Website</title>
-</head>
-
-<body>
-    <!-- Navigation Bar -->
-    <div class="navBar" id="navBar">
-        <a href="#Home" class="active">Home</a>
-        <a href="#About">About</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Links">My Links</a>
-    </div>
-    <br>
-
-    <!-- Home -->
-    <section class="info" id="Home">
-        <div class="info-container">
-            <img src="assets/images/pfp.png" alt="PFP" class="pfp">
-            <div class="info-content">
-                <h1>John's Page</h1>
-                <p>Hi, I'm a third year student at UNSW. 
-                For my take on the theme time, I chose a seasonal aesthetic representing the four seasons.
-                I also enjoy building fun projects, see below!</p>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- About -->
-    <section class="about" id="About">
-        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-    
-        <div class="about-container">
-            <div class="about-content">
-                <ul>
-                <div class="rounded-box">
-                    <ul>
-                        <li><strong>Age:</strong> 20</li>
-                        <li><strong>Degree:</strong> Comm / Com Sci</li>
-                        <li><strong>Hobbies:</strong> Exercise, Games, Tennis</li>
-                        <li><strong>Skills:</strong> Python, C, Javascript, Java</li>
-                    </ul>
-                </div>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Projects -->
-    <section class="projects" id="Projects">
-        <h2 class="heading"><i class="fas fa-code"></i> Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Utility, Currency and Gacha Discord bot. Created using Javascript and stored using MongoDB</p>
-                <img src="assets/images/project1-img2.png" alt="Project 1 Image2">
-                <br>
-                <img src="assets/images/project1-img.png" alt="Project 1 Image">
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>2D platformer game created using Unity C#</p>
-                <video width="100%" controls>
-                    <source src="assets/videos/game0.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <br>
-                <br>
-                <video width="100%" controls>
-                    <source src="assets/videos/game1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Seasons -->
-    <section class="seasons" id="seasons">
-        <h2 class="heading"><i class="fas fa-sun"></i> Seasons</h2>
-        <div class="seasons-container">
-            <div class="season">
-                <img src="assets/images/summer.png" alt="Summer Image">
-            </div>
-            <div class="season">
-                <img src="assets/images/winter.png" alt="Winter Image">
-            </div>
-            <div class="season">
-                <img src="assets/images/autumn.png" alt="Autumn Image">
-            </div>
-            <div class="season">
-                <img src="assets/images/spring.png" alt="Spring Image">
-            </div>
-        </div>
-    </section>
-    
-    <!-- Social Links -->
-    <section class="social" id="Links">
-        <div id="particles-js"></div>
-        <div class="socials">
-            <ul class="social-icons">
-                <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/john-wu-a7687026a?originalSubdomain=au" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a class="github" aria-label="GitHub" href="https://github.com/JaWu1" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/john_.wu_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-        </div>
-    </section>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/computer.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Wu</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
