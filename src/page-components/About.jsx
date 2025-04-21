@@ -21,7 +21,7 @@ export default function About() {
         {/* Left: About Text */}
         <div className="text-white space-y-4">
           <p className="text-lg leading-relaxed">
-            Final year Computer Science & Finance student at UNSW passionate about building scalable software solutions and leveraging technology in finance and analytics.
+            Hi I'm John Wu, a Final year Computer Science & Finance student at UNSW passionate about building software and leveraging technology in analytics.
             I'm curious about the intersection of software engineering and finance, creating impactful solutions that bridge the gap between data and decision-making.
           </p>
         </div>
