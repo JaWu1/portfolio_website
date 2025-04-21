@@ -1,3 +1,6 @@
+import campusImg from '../assets/images/campus_collab.jpg';
+import discordImg from '../assets/images/discord_bot.png';
+import gameImg from '../assets/images/2d_game.png';
 
 export default function Projects() {
   return (
@@ -26,7 +29,7 @@ export default function Projects() {
             </a>
           </div>
           <img
-            src="/images/campus_collab.jpg"
+            src={campusImg}
             alt="Campus Collab"
             className="object-cover rounded-lg shadow-md"
           />
@@ -48,7 +51,7 @@ export default function Projects() {
             </a>
           </div>
           <img
-            src="/images/discord_bot.png"
+            src={discordImg}
             alt="Discord bot"
             className="object-cover rounded-lg shadow-md"
           />
@@ -70,7 +73,7 @@ export default function Projects() {
             </a>
           </div>
           <img
-            src="/images/2d_game.png"
+            src={gameImg}
             alt="2d game"
             className="object-cover rounded-lg shadow-md"
           />
